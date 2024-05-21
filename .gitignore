@@ -167,3 +167,4 @@ kaggle.json
 # datasets
 
 *.csv
+*.pdf

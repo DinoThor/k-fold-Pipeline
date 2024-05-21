@@ -1,3 +1,5 @@
-Online Credit Card Transactions: https://www.kaggle.com/datasets/adityakadiwal/credit-card-fraudulent-transactions
-Heart Disease Dataset: https://www.kaggle.com/datasets/mexwell/heart-disease-dataset
-AIDS Virus Infection Prediction: https://www.kaggle.com/datasets/aadarshvelu/aids-virus-infection-prediction?select=AIDS_Classification.csv
+Online Credit Card Transactions (94682 sampl, bool): https://www.kaggle.com/datasets/adityakadiwal/credit-card-fraudulent-transactions
+Heart Disease Dataset (1190 sampl, bool): https://www.kaggle.com/datasets/mexwell/heart-disease-dataset
+AIDS Virus Infection Prediction (up to 50k sampl, bool): https://www.kaggle.com/datasets/aadarshvelu/aids-virus-infection-prediction?select=AIDS_Classification.csv
+Wheat Seeds (200 sampl, 3 class): https://www.kaggle.com/datasets/jmcaro/wheat-seedsuci
+Spanish Wine Quality Dataset (7500 sampl): https://www.kaggle.com/datasets/fedesoriano/spanish-wine-quality-dataset
