@@ -1,0 +1,3 @@
+Online Credit Card Transactions: https://www.kaggle.com/datasets/adityakadiwal/credit-card-fraudulent-transactions
+Heart Disease Dataset: https://www.kaggle.com/datasets/mexwell/heart-disease-dataset
+AIDS Virus Infection Prediction: https://www.kaggle.com/datasets/aadarshvelu/aids-virus-infection-prediction?select=AIDS_Classification.csv
