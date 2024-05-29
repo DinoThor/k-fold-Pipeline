@@ -5,11 +5,19 @@ from sklearn.model_selection import train_test_split
 class ClassificationSplit():
     def __init__(self) -> None:
         self._classif = Classification()
-        self._splitDatasets = []
+        self._splitDatasets = {}
 
-        for npArray in self._classif._numpyArrays:
-            self._splitDatasets.append(train_test_split(npArray, train_size=0.8))
-        
-        print(type(self._splitDatasets[0][0]))
+        for dataset_name, npArray in self._classif._numpyArrays:
+            self._splitDatasets[dataset_name] = train_test_split(npArray[:, :-1], npArray[:, -1], train_size=0.8)
+
+    def printShapes(self):
+        for dataset_name, splitData in self._splitDatasets.items():
+            print(f"===== {dataset_name} =====")
+            print(f"X train shape ==> {np.shape(splitData[0])}")
+            print(f"Y train shape ==> {np.shape(splitData[1])}")
+            print(f"X test shape  ==> {np.shape(splitData[2])}")
+            print(f"X test shape  ==> {np.shape(splitData[3])}")
+
 
 cs = ClassificationSplit()
+cs.printShapes()
