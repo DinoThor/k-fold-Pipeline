@@ -13,10 +13,8 @@ class ClassificationSplit():
     def printShapes(self):
         for dataset_name, splitData in self._splitDatasets.items():
             print(f"===== {dataset_name} =====")
-            print(f"X train shape ==> {np.shape(splitData[0])}")
-            print(f"Y train shape ==> {np.shape(splitData[1])}")
-            print(f"X test shape  ==> {np.shape(splitData[2])}")
-            print(f"X test shape  ==> {np.shape(splitData[3])}")
+            print(f"train shape ==> X{np.shape(splitData[0])} Y{np.shape(splitData[2])}")
+            print(f"test shape  ==> X{np.shape(splitData[1])} Y{np.shape(splitData[2])}")
 
 
 cs = ClassificationSplit()

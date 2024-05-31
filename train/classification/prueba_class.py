@@ -3,8 +3,7 @@ import pandas as pd
 
 class Classification():
     def __init__(self) -> None:
-        abspath = os.path.abspath(__file__)
-        dname = os.path.dirname(abspath)
+        dname = os.path.dirname(os.path.abspath(__file__))
         os.chdir(dname)
         
         self._dataFrames    = []
